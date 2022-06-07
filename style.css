@@ -190,6 +190,7 @@ button.share {
     display: grid;
     grid-template-columns: 2fr 1fr;
     padding: 30px;
+    gap: 15px;
 }
 
 
@@ -208,6 +209,7 @@ button.share {
     border-radius: 15px;
     padding-left: 10px;
     padding-right: 10px;
+    border-left: rgb(57, 165, 253) solid 8px;
 }
 
 .project-title {
