@@ -311,3 +311,9 @@ p {
 .user-info>p.org {
     font-size: 15px;
 }
+
+.user-icons {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
