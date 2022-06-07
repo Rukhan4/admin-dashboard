@@ -189,6 +189,7 @@ button.share {
     padding-left: 20px;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    padding: 30px;
 }
 
 
