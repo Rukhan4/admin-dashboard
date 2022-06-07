@@ -271,3 +271,42 @@ p {
     margin-right: 10px;
     border-bottom: grey solid 1px;
 }
+
+/* Trends */
+
+.trends {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.trend {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.user-info {
+    padding-left: 15px;
+}
+
+.user-info>p {
+    gap: 0px;
+    margin: 0;
+    padding-top: 3px;
+}
+
+.user-info>p.new-name {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.user-info>p.org {
+    font-size: 15px;
+}
