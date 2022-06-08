@@ -311,6 +311,18 @@ p {
     gap: 30px;
 }
 
+.big-title {
+    display: grid;
+    grid-template-rows: 1vh 1fr;
+    margin-top: -10px;
+}
+
+#all-titles {
+    font-weight: bold;
+    font-size: 32px;
+    margin-left: 15px;
+}
+
 /* Announcements */
 
 .misc {
