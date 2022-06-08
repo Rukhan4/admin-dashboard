@@ -90,11 +90,9 @@ header {
     display: grid;
     grid-template-rows: 1fr 2fr;
     grid-template-columns: 7fr 1fr 1fr 1fr;
+    margin-top: 20px;
 }
 
-header:nth-child(n+5) {
-    grid-row-start: 2;
-}
 
 button {
     border-style: none;
