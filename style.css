@@ -19,6 +19,7 @@ body {
     padding-left: 20px;
     padding-top: 20px;
     padding-right: 15px;
+    place-content: center;
 }
 
 .dash {
@@ -28,7 +29,7 @@ body {
     place-content: start;
     gap: 10px;
     padding-left: 5px;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 nav {
@@ -55,6 +56,30 @@ ul>li {
 
 sec2 {
     padding-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#donate {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 15px;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(22, 148, 252);
+}
+
+button#donate:hover {
+    background-color: rgb(252, 114, 22);
 }
 
 /* Header */
