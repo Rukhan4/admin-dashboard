@@ -1,4 +1,4 @@
-# Login Page
+# Admin Dashboard
 → [Live Demo](https://rukhan4.github.io/admin-dashboard/)
 
 ## Table of contents
